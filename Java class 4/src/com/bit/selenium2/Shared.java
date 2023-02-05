@@ -71,12 +71,16 @@ public class Shared {
 	//public void clickOnElement(By locator) {
 		
 		//dr.findElement(locator).click();
-	//}
+//}
 	//public void typeOnElement(WebElement element, String value) {
 		
 		//element.sendKeys(value);
 
 	//}
-	                          
+	      
+	public void typeOnElement1(WebElement webelement, String value) {
+		webelement.sendKeys(value);
+	}
+
 
 }
